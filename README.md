@@ -20,13 +20,16 @@ A React-based website inspired by Aston Martin's design aesthetics, featuring en
 
 Make sure you have **Node.js** and **npm** installed on your machine.
 
-1. **Clone the repository:**
+1. **Clone the repository**
    ```bash
    git clone https://github.com/rahaneom/aston-martin-inspired.git
    cd aston-martin-react
 
-2. **Install dependencies: Run the following command to install all required dependencies:**
-  ```bash
+2. **Install dependencies**
+  ```
     npm install 
-
-
+```
+3. **Run the project**
+```
+npm start
+```
