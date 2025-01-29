@@ -26,7 +26,7 @@ Make sure you have **Node.js** and **npm** installed on your machine.
    cd aston-martin-react
 
 2. **Install dependencies**
-  ```
+   ```
     npm install 
    ```
 3. **Run the project**
