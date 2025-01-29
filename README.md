@@ -28,8 +28,8 @@ Make sure you have **Node.js** and **npm** installed on your machine.
 2. **Install dependencies**
   ```
     npm install 
-```
+   ```
 3. **Run the project**
-```
-npm start
-```
+   ```
+   npm start
+   ```
