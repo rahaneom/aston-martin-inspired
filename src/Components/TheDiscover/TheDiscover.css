@@ -1,0 +1,48 @@
+.discover-section {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../../assets/aston-cover11.jpg');
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url('../../assets/aston-cover9.webp');
+    /* background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) , url('../../assets/aston-cover10.jpg'); */
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed;
+}
+  
+.discover-cover-text {
+    /* z-index: 1; */
+    color: aliceblue;
+    /* text-align: center; */
+}
+
+.discover-cover-text div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.discover-cover-text div p{
+    /* font-family: 'Comfortaa'; */
+    margin: 0;
+    font-size: 22px;
+    color: #d3c8c8;
+    letter-spacing: 5px;
+    font-family: 'Anta';
+}
+
+.discover-cover-text hr{
+    background-color: #aaaeaf;
+    border: none;
+    width: 30%;
+    height: 1.5px;
+    /* margin-top: 10px; */
+}
+
+.discover-cover-text div h1{
+    margin: 0;
+    font-family: 'Raleway';
+    letter-spacing: 2px;
+    font-size: 55px;
+    background: -webkit-linear-gradient(#eee, #585f5f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

@@ -1,0 +1,44 @@
+.service-cover{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url('../../assets/aston-cover8.webp');
+    background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.6)) , url('../../assets/aston-cover13.webp') !important;
+    /* background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url('../../assets/aston-cover10.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed !important;
+    height: 100vh;
+}
+
+.service-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-text-container div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.service-text-container p{
+    margin: 0;
+    font-size: 25px;
+    color: #d3c8c8;
+    letter-spacing: 3px;
+    font-family: 'Anta';
+}
+
+.service-text-container h1{
+    margin: 0;
+    font-family: 'Raleway';
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 50px;
+    color: aliceblue;
+    
+  background: -webkit-linear-gradient(#eee, #585f5f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

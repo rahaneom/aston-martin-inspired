@@ -1,0 +1,57 @@
+.abt-section{
+    background: rgb(246, 234, 216);
+    padding:  70px 30px;
+    /* height: 90vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.abt-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.abt-img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.abt-text-container span{
+    color: #4e4f4f;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Comfortaa';
+    margin-bottom: 20px;
+}
+
+.abt-title{
+    color: #484847;
+    font-size: 45px;
+    text-align: center;
+    align-items: self-start;
+    font-family: 'Montserrat';
+}
+
+.abt-text{
+    color: #18191a;
+    font-family: 'Raleway';
+    /* font-family: 'Monserrat'; */
+    font-weight: 600;
+    font-size: 17px;
+    width: 80%;
+    margin: 6px auto;
+    /* color: rgb(190, 187, 187); */
+}
+
+.col-container{
+    margin: 3% 0;
+}
+
+.abt-history-title{
+    font-size: 40px;
+}
+.abt-history-text{
+    text-align: center;
+}

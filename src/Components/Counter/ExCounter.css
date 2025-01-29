@@ -1,0 +1,61 @@
+.counter-section{
+    /* background-image: url('../../assets/gradient-cover.jpg'); */
+    background-color: #151515;
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #cdc9c9;
+    padding: 50px 6% 0 6% !important;
+    font-family: "Montserrat", sans-serif;
+    /* padding-left: 300px !important; */
+}
+
+
+.counter-title{
+    /* margin: 20px; */
+    margin: 0 auto 30px;
+    text-align: center;
+    /* border: 2px solid blanchedalmond; */
+    width: 100%;
+}
+.counter-title p{
+    color: #a0a0a0;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.counter-container{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    /* border: 2px solid red; */
+    width: 23% !important;
+    margin: 0 auto;
+}
+
+.counter-container .icon{
+    font-size: 100px;
+    /* color: rgb(79, 0, 128); */
+    /* margin-top: 10px; */
+    margin-bottom: 20px;
+}
+
+.counter{
+    margin-right: 60px;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid brown; */
+    /* justify-content: space-between; */
+}
+
+.counter span{
+    font-size: 60px ;
+}
+
+.counter p{
+    font-size: 16px;
+    /* border: 2px solid saddlebrown; */
+    width: 100%;
+    color: #a0a0a0;
+}

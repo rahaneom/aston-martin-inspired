@@ -1,0 +1,42 @@
+.services-container {
+    /* height: 100vh; */
+    background-color: rgb(207, 219, 228);
+    padding: 30px 50px;
+  }
+  
+  .service-container-row {
+    height: 100%;
+}
+
+.service-container-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.service-text{
+    width: 80%;
+}
+.service-text h1{
+    margin-bottom: 5%;
+    text-align: center;
+    color: rgb(27, 24, 24);
+    width: 80%;
+    font-family: 'Outfit';
+    /* font-family: 'Anta'; */
+}
+.service-text p{
+    /* font-size: 17px; */
+    color: rgb(71, 69, 69);
+    /* font-family: 'Anta'; */
+    font-family: 'Comfortaa';
+}
+  
+  .service-img {
+    max-width: 95%;
+    /* max-height: 100%; */
+    display: block;
+    margin: auto;
+  }
+  

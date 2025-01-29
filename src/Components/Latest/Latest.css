@@ -1,0 +1,50 @@
+.latest-section {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../../assets/aston-cover15.png');
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('../../assets/aston-cover16.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 70px 15px; /* Adjusted padding for smaller screens */
+  }
+  
+  .latest-column {
+    display: flex;
+    flex-direction: column; /* Display columns in a vertical layout */
+    align-items: center;
+  }
+  
+  .latest-video {
+    width: 100%;
+    max-width: 100%; /* Ensure video does not exceed its container width */
+    height: auto;
+    transition: 0.5s ease;
+  }
+  
+  .latest-text-container {
+    text-align: center;
+  }
+  
+  .latest-title {
+    color: #f4f7f8;
+    font-size: 35px; /* Decreased font size for smaller screens */
+    font-family: 'Raleway';
+    margin-bottom: 20px; /* Added margin bottom for spacing */
+  }
+  
+  .latest-text {
+    color: #dadad1;
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 16px; /* Decreased font size for smaller screens */
+    width: 100%; /* Ensure text takes full width */
+    margin-bottom: 10px; /* Added margin bottom for spacing */
+  }
+  
+  .latest-price {
+    margin: 20px auto;
+    font-family: 'Comfortaa';
+    color: rgb(255, 255, 255);
+    font-size: 22px; /* Decreased font size for smaller screens */
+  }
+  
